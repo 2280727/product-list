@@ -19,7 +19,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) =>
   };
 
   return (
-    <Card className="h-full flex flex-col">
+    <Card onClick={onClick} className="h-full flex flex-col cursor-pointer">
       <CardContent className="flex flex-col items-center justify-center p-4 shrink-0">
         <Image src={product.coverImage} alt={product.title} width={100} height={100} className="object-contain h-48 rounded"/>
       </CardContent>
