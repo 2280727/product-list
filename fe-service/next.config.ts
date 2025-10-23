@@ -11,6 +11,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Fix workspace root detection
+  experimental: {
+    turbo: {
+      root: './fe-service'
+    }
+  }
 };
 
 export default nextConfig;

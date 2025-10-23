@@ -1,0 +1,14 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd fe-service && npm run dev",
+    "build": "cd fe-service && npm run build",
+    "start": "cd fe-service && npm run start",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
